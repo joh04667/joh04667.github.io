@@ -297,6 +297,7 @@ section:last-child {
 }
 
 .instaFade {
+	display:none;
     -webkit-animation-name: reset, fade-in;
     -webkit-animation-duration: 1.5s;
     -webkit-animation-timing-function: ease-in;
@@ -353,4 +354,21 @@ section:last-child {
 	-webkit-animation-delay: 0, 2.5s;
 	-moz-animation-delay: 0, 2.5s;
 	animation-delay: 0, 2.5s;
+}
+
+#button {
+	text-align: center;
+	margin-top: 50px;
+}
+
+#button h1 {
+	text-align: center;
+	padding: 10px
+	margin: auto;
+	width: 100px;
+	background-color: green;
+	border-width: 5px;
+	border-color: rgb(0, 100, 0);
+	border-style: solid;
+	font-weight: bold;
 }
